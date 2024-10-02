@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence:BLED,SCAN@36,2&display=swap');
+body{
+  font-family: "Sixtyfour Convergence", cursive;
+  background: rgb(7,0,116);
+  background: linear-gradient(147deg, rgba(7,0,116,1) 0%, rgba(79,0,112,1) 66%, rgba(0,0,0,1) 100%);
+  text-align: center;
+}
