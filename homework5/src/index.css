@@ -1,0 +1,15 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap'); */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    font-family:Arial, Helvetica,cursive;
+    background: rgb(255, 0, 0);
+    background: linear-gradient(216deg, rgb(14, 14, 14) 0%, rgb(33, 0, 100) 66%, rgb(17, 0, 255) 100%);
+    height: 100vh;
+    font-size: 22px;
+    color: white;
+}
