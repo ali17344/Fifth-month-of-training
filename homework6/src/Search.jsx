@@ -21,16 +21,8 @@ const Search = ({ data }) => {
                 data.length > 0 ? (
                     <>
                         
-                        <input
-                            type="text"
-                            value={postTitle}
-                            onChange={(e) => setPostTitle(e.target.value)}
-                        />
-                        <input
-                            type="text"
-                            value={postBody}
-                            onChange={(e) => setPostBody(e.target.value)}
-                        />
+                        <input type="text" value={postTitle} onChange={(e) => setPostTitle(e.target.value)}/>
+                        <input type="text" value={postBody} onChange={(e) => setPostBody(e.target.value)}/>
                         <button onClick={search}>Search</button>
                         <div>
                             {filteredData.map((element) => (
