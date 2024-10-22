@@ -8,7 +8,7 @@ const App = () => {
 
   return (
     <div>
-      <h1>Управление контактами</h1>
+      <h1>Список ваших контактов</h1>
       <ContactForm currentContact={currentContact} setCurrentContact={setCurrentContact} />
       <ContactList setCurrentContact={setCurrentContact}/>
     </div>
